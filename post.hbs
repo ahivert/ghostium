@@ -5,8 +5,8 @@
     <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post {{post_class}}">
       {{#post}}
         <section class="post-container">
-          {{#if image}}
-          <div class="post-image" style="background-image: url({{image}})"></div>
+          {{#if feature_image}}
+          <div class="post-image" style="background-image: url({{img_url feature_image}})"></div>
           <style>
             .post-image {
                 background-color: #000;
